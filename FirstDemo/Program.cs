@@ -13,7 +13,7 @@
         }
         catch (Exception ex) 
         {
-            Console.WriteLine(ex.ToString());
+            Console.WriteLine(ex.ToString() + "\r\n");
         }
         
     }
@@ -28,7 +28,7 @@
         }
         catch (Exception ex) 
         {
-            Console.Write(ex.ToString());
+            Console.Write(ex.ToString() + "\r\n");
             return null;
         }
 
